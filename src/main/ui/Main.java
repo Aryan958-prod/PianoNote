@@ -1,7 +1,5 @@
 package ui;
 
-import model.PianoGame;
-
 import javax.swing.*;
 
 public class Main {

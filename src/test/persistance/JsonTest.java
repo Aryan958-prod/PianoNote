@@ -1,6 +1,5 @@
 package persistance;
 
-import model.PianoGame;
 import model.Player;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;

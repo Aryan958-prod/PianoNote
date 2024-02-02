@@ -438,7 +438,7 @@ public class GameGUI extends JFrame implements ActionListener {
             JOptionPane.showMessageDialog(this, "Correct!");
         } else {
             JOptionPane.showMessageDialog(this, "Incorrect!" + "\n" + "The correct answer was " +
-                    pianoGame.getCurrentNote() + ".");
+                    pianoGame.getCurrentNote() + "");
         }
         if (pianoGame.getCurrentPlayerName().equals(pianoGame.getPlayerName(pianoGame.getNumberOfPlayers() - 1))) {
             JOptionPane.showMessageDialog(this, "Round over!");
